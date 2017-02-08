@@ -226,12 +226,12 @@ main{margin-bottom: 420px;
 	position: absolute;
     width: 10px;
     height: 14px;
-    left: -8px;
+    left: -5px;
     bottom: 0px;
     background-color: #fff;
-} 
+}
 .places-stop{
-	width: 16%;
+	width: 17%;
 }
 .places-stop h4{
 	font-size: 18px;
@@ -420,4 +420,8 @@ main{margin-bottom: 420px;
 	position: absolute;
 	right: 20px;
 	top: 20px;
+}
+.bg-wh-tour{
+	background-color: #fff;
+	padding: 0 30px 30px 30px;
 }
