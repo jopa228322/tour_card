@@ -80,6 +80,7 @@ main{margin-bottom: 420px;
 }
 
 
+
 /**************************************************************************************************************/
 .top-block-tour-carousel{
 	margin-bottom: 30px;
@@ -358,6 +359,7 @@ main{margin-bottom: 420px;
 	right: 0;
 	background-color: rgba(46, 48, 54, 0.35);
 	z-index: 15;
+	overflow:hidden;
 }
 .pop-up-content{
 	position: relative;
