@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic');
+/* font-family: 'Open Sans', sans-serif; */
+@font-face {
+	font-family: "ProximaNova";
+	src: url("../fonts/ProximaNova-Regular.ttf") format("truetype"),
+	url("../fonts/ProximaNova-Regular.woff") format("woff"),
+	url("../fonts/ProximaNova-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSansLight";
+	src: url("../fonts/OpenSans-Light.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/OpenSans-Bold.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: "ProximaNova";
+	src: url("../fonts/ProximaNova-Bold.ttf") format("truetype"),
+	url("../fonts/ProximaNova-Bold.woff") format("woff"),
+	url("../fonts/ProximaNova-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	min-width: 1280px;
+	max-width: 1920px;
+	background-color: #fafafa;
+	margin: 0 auto;
+}
+main{margin-bottom: 420px;
+ z-index: 2;
+ background: #fafafa;
+}
+.centerBlock{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-left: 26px;
+	padding-right: 26px;
+}
+.clearfix::after{
+	display: block;
+	content: "";
+	clear: both;s
+}
+
+
+/***************************************************************************************************************/
+.owl-carousel-tour{
+	background-color: #fafafa;
+	margin-top: 20px;
+}
+
+.carousel-tour-item {
+	width: 100%;
+	height: 170px;
+	border: 0;
+	outline: 0;
+}
+.carousel-tour-item img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/**************************************************************************************************************/
+.top-block-tour-carousel{
+	margin-bottom: 30px;
+}
+.down-block-tour{
+	margin-bottom: 30px;
+	padding:0 30px;
+}
+.down-block-info-Top{
+	padding: 30px 0;
+}
+.down-block-info-Top h1{
+	font-size: 23px;
+	font-family: "OpenSansBold";
+	color: #2e3036;
+}
+.from-where-info{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.from-where-citys{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.select-city{
+	font-size: 26px;
+	font-family: "OpenSans";
+	margin-bottom: 5px;
+	color: #2e3036;
+}
+.select-date-and-time{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	max-width: 135px;
+}
+.city-select-date{
+	width: 62%;
+	font-size: 16px;
+	color: #fe7373;
+	font-family: "OpenSans";
+}
+.city-select-time{
+	width: 30%;
+	font-size: 16px;
+	color: #fe7373;
+	font-family: "OpenSans";
+}
+.arrows-tour{
+	    align-self: center;
+	    margin: 0 20px;
+}
+.date-start-end-tour{
+	width: 42%;
+	text-align: center;
+}
+.date-start-end-tour{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+}
+.select-date-start-text{
+	font-family: "OpenSans";
+	font-size: 14px;
+	color: #2e3037;
+	margin-bottom: 3px;
+}
+.select-date-start{
+	font-size: 23px;
+	font-family: "OpenSans";
+	color: #fe7373;
+}
+.mark{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.number-mark h3{
+	font-size: 51.97px;
+	font-family: "OpenSansBold";
+	color: #f9c257;
+	margin: 0;
+	padding: 0;
+	line-height: 43px;
+}
+.mark-right-content{
+	margin-left: 15px;
+}
+.mark-word{
+	font-size: 17.48px;
+	font-family: "OpenSansBold";
+	color: #f9c257;
+	text-transform: uppercase;
+}
+.mark-stars{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2px;
+	color: #f9c257;
+}
+.down-block-info-Down{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.stop-items{
+	border-left: 1px dashed #fe7373;
+	position: relative;
+	width: 100%;
+}
+ .first-ch-tour{
+	position: absolute;
+    width: 10px;
+    height: 14px;
+    left: -8px;
+    top: -5px;
+    background-color: #fff;
+}
+.last-ch-tour{
+	position: absolute;
+    width: 10px;
+    height: 14px;
+    left: -8px;
+    bottom: 0px;
+    background-color: #fff;
+} 
+.places-stop{
+	width: 16%;
+}
+.places-stop h4{
+	font-size: 18px;
+	font-family: "OpenSansLight";
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+ .places-stop-item{
+	margin-left: 15px;
+	margin-bottom: 50px;
+	font-size: 14px;
+	position: relative;
+	font-family: "OpenSanslight";
+	color: #fe7373;
+}
+.dots-stop-items{
+	position: absolute;
+    top: 34%;
+    left: -20.515px;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+}
+.ellips1{
+	height: 10px;
+	width: 10px;
+	border-radius:  50%;
+	border:1px solid #fe7373;
+	padding: 2px;
+
+}
+.ellips2{
+	height: 4px;
+	width: 4px;
+	background-color: #fe7373;
+	border-radius: 50%;
+}
+.info-Down-text{
+	width: 73%;
+}
+.info-Down-text p{
+	margin-top: 0;
+	font-size: 14px;
+	font-family: "OpenSansLight";
+	line-height: 28.69px;
+	color: #616161;
+	letter-spacing: 0.6px;
+}
+.price-and-oform{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+
+}
+.oform{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.price-tour-oform{
+	padding: 5px 29px;
+	color: #fff;
+	background-color: #fe7373;
+	border-top-left-radius:  5px;
+	border-bottom-left-radius:  5px;
+	text-align: center;
+
+
+}
+.stoim-t{
+	font-size: 9.92px;
+	font-family: "OpenSans";
+	margin-bottom: 4px;
+	line-height: 7px;
+}
+.add-in-liked{
+	margin-right: 30px;
+	-ms-align-self: center;
+	align-self: center;
+}
+.add-in-liked a{
+	font-family: "OpenSansLight";
+	font-size: 14px;
+	text-decoration: none;
+	vertical-align: middle;
+	color: #fe7373;
+}
+.oform-price-tour-numb{
+	font-size: 16px;
+	font-family: "OpenSans";
+	line-height: 18px;
+	
+}
+.oform-price-tour-numb i{
+	 margin-left: 5px;
+}
+.oform-button{
+	font-size: 16px;
+	font-family: "OpenSans";
+	line-height: 18px;
+	padding: 5px 29px;
+	color: #fff;
+	background-color: #2e3036;
+	border-top-right-radius:  5px;
+	border-bottom-right-radius:  5px;
+	text-align: center;
+	border: 0;
+	outline: 0;
+}
+.oform-button:hover{
+	cursor: pointer;
+}
+.pop-up-main-screen {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(46, 48, 54, 0.35);
+	z-index: 15;
+}
+.pop-up-content{
+	position: relative;
+	width: 525px;
+	height: 230px;
+	background-color: #fff;
+	top: 40%;
+    left: 36%;
+    border-radius: 5px;
+    padding: 18px;
+}
+.pop-up-content h3{
+	font-family: "OpenSansBold";
+	font-size: 18px;
+	margin: 0 auto;
+	width: 60%;
+	line-height: 35px;
+	text-align: center;
+	color: #2e3036;
+	margin-top: 25px;
+}
+.but-pop-up{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 67%;
+	margin-top: 35px;
+}
+.canceled{
+	padding: 10px 35px;
+	background-color: #2e3036;
+	color: #fff;
+	border-radius:  3px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "OpenSans";
+}
+.confirmed{
+	padding: 10px 35px;
+	background-color: #f56666;
+	color: #fff;
+	border-radius:  3px;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "OpenSans";
+}
+.pop-up-content p{
+	font-size: 12px;
+	font-family: "OpenSansLight";
+	text-align: center;
+	margin-top: 30px;
+}
+.close-icon{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
